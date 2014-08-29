@@ -1,0 +1,24 @@
+/* Localized Strings file\n  SDMSupportability.bundle\n\n  Created by Nyisztor Karoly on 8/14/11.\nCopyright 2011 SAP AG. All rights reserved.\n\n\n\n\n\n\n/* XACT:   Accessibility hint read by the VoiceOver Utility when hovering over the LogViewer UI title */
+"Hint_LogViewerTitle" = "Заголовок";
+
+/* XTIT:\t Localized title for the LogViewer UI */
+"Title_LogViewer" = "Журналы";
+
+/* XACT:  Accessibility hint for the Send eMail button */
+"Hint_SendMail" = "Отправить мейл";
+
+/* XTIT: \tUIAlertView title */
+"Title_Email" = "E-mail";
+
+/* XMSG: \tUIAlertView error message when an error occurs upon sending the eMail */
+"Msg_SendingFailed" = "Отправка не выполнена.";
+
+/* XBUT:  UIAlterView Ok button message */
+"Btn_OK" = "ОК";
+
+/* XACT:  Accessibility hint for the log entry selection checkmark - unchecked state */
+"Hint_CheckboxUnselected" = "Не выбрано";
+
+/* XACT:  Accessibility hint for the log entry selection checkmark - selected state */
+"Hint_CheckboxSelected" = "Выбрано";
+

@@ -1,0 +1,48 @@
+//
+//  MAFLogonSMPConstants.h
+//  MAFLogonManagerNG
+//
+//  Copyright (c) 2013 SAP AG. All rights reserved.
+//
+
+#define keyApplicationSettings_PasswordPolicyEnabled                    @"d:PasswordPolicyEnabled"
+#define keyApplicationSettings_PasswordPolicyDefaultPasswordAllowed     @"d:PasswordPolicyDefaultPasswordAllowed"
+#define keyApplicationSettings_PasswordPolicyMinLength                  @"d:PasswordPolicyMinLength"
+#define keyApplicationSettings_PasswordPolicyDigitRequired              @"d:PasswordPolicyDigitRequired"
+#define keyApplicationSettings_PasswordPolicyUpperRequired              @"d:PasswordPolicyUpperRequired"
+#define keyApplicationSettings_PasswordPolicyLowerRequired              @"d:PasswordPolicyLowerRequired"
+#define keyApplicationSettings_PasswordPolicySpecialRequired            @"d:PasswordPolicySpecialRequired"
+#define keyApplicationSettings_PasswordPolicyExpiresInNDays             @"d:PasswordPolicyExpiresInNDays"
+#define keyApplicationSettings_PasswordPolicyMinUniqueChars             @"d:PasswordPolicyMinUniqueChars"
+#define keyApplicationSettings_PasswordPolicyLockTimeout                @"d:PasswordPolicyLockTimeout"
+#define keyApplicationSettings_PasswordPolicyRetryLimit                 @"d:PasswordPolicyRetryLimit"
+
+#define keyApplicationSettings_ETag                                     @"d:ETag"
+#define keyApplicationSettings_ApplicationConnectionId                  @"d:ApplicationConnectionId"
+#define keyApplicationSettings_AndroidGcmPushEnabled                    @"d:AndroidGcmPushEnabled"
+#define keyApplicationSettings_AndroidGcmRegistrationId                 @"d:AndroidGcmRegistrationId"
+#define keyApplicationSettings_AndroidGcmSenderId                       @"d:AndroidGcmSenderId"
+#define keyApplicationSettings_ApnsPushEnable                           @"d:ApnsPushEnable"
+#define keyApplicationSettings_ApnsAlerts                               @"d:ApnsAlerts"
+#define keyApplicationSettings_ApnsBadges                               @"d:ApnsBadges"
+#define keyApplicationSettings_ApnsSounds                               @"d:ApnsSounds"
+#define keyApplicationSettings_ApnsAlertMessage                         @"d:ApnsAlertMessage"
+#define keyApplicationSettings_ApnsDeviceToken                          @"d:ApnsDeviceToken"
+#define keyApplicationSettings_CustomizationBundleId                    @"d:CustomizationBundleId"
+#define keyApplicationSettings_ApplicationVersion                       @"d:ApplicationVersion"
+#define keyApplicationSettings_ClientSdkVersion                         @"d:ClientSdkVersion"
+#define keyApplicationSettings_BlackberryPushEnabled                    @"d:BlackberryPushEnabled"
+#define keyApplicationSettings_BlackberryDevicePin                      @"d:BlackberryDevicePin"
+#define keyApplicationSettings_BlackberryBESListenerPort                @"d:BlackberryBESListenerPort"
+#define keyApplicationSettings_CapabilitiesPasswordPolicy               @"d:CapabilitiesPasswordPolicy"
+#define keyApplicationSettings_CustomCustom1                            @"d:CustomCustom1"
+#define keyApplicationSettings_CustomCustom2                            @"d:CustomCustom2"
+#define keyApplicationSettings_CustomCustom3                            @"d:CustomCustom3"
+#define keyApplicationSettings_CustomCustom4                            @"d:CustomCustom4"
+#define keyApplicationSettings_DeviceModel                              @"d:DeviceModel"
+#define keyApplicationSettings_DeviceType                               @"d:DeviceType"
+#define keyApplicationSettings_DeviceSubType                            @"d:DeviceSubType"
+#define keyApplicationSettings_DevicePhoneNumber                        @"d:DevicePhoneNumber"
+#define keyApplicationSettings_DeviceIMSI                               @"d:DeviceIMSI"
+#define keyApplicationSettings_ProxyApplicationEndpoint                 @"d:ProxyApplicationEndpoint"
+#define keyApplicationSettings_ProxyPushEndpoint                        @"d:ProxyPushEndpoint"

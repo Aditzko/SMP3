@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66389B8F19B0610A00E981EB /* libMAFFormatters.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8919B0610A00E981EB /* libMAFFormatters.a */; };
+		66389B9019B0610A00E981EB /* libMAFLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8A19B0610A00E981EB /* libMAFLogger.a */; };
+		66389B9119B0610A00E981EB /* libMAFLogonManagerNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8B19B0610A00E981EB /* libMAFLogonManagerNG.a */; };
+		66389B9219B0610A00E981EB /* libMAFLogonUING.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8C19B0610A00E981EB /* libMAFLogonUING.a */; };
+		66389B9319B0610A00E981EB /* libMAFUIHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8D19B0610A00E981EB /* libMAFUIHelper.a */; };
+		66389B9419B0610A00E981EB /* libMAFZipHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B8E19B0610A00E981EB /* libMAFZipHelper.a */; };
+		66389B9D19B06AE800E981EB /* libMAFUIComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B9C19B06AE800E981EB /* libMAFUIComponents.a */; };
+		66389B9F19B0935500E981EB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66389B9E19B0935500E981EB /* libsqlite3.dylib */; };
 		66DC843619ACC79E00C6EEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC843519ACC79E00C6EEB8 /* Foundation.framework */; };
 		66DC843819ACC79E00C6EEB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC843719ACC79E00C6EEB8 /* CoreGraphics.framework */; };
 		66DC843A19ACC79E00C6EEB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC843919ACC79E00C6EEB8 /* UIKit.framework */; };
@@ -19,6 +27,37 @@
 		66DC845119ACC79E00C6EEB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC843919ACC79E00C6EEB8 /* UIKit.framework */; };
 		66DC845919ACC79F00C6EEB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DC845719ACC79E00C6EEB8 /* InfoPlist.strings */; };
 		66DC845B19ACC79F00C6EEB8 /* SMP3_101Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC845A19ACC79F00C6EEB8 /* SMP3_101Tests.m */; };
+		66DC852819ACC9FB00C6EEB8 /* Cache.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66DC846719ACC9FB00C6EEB8 /* Cache.bundle */; };
+		66DC852919ACC9FB00C6EEB8 /* Logger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66DC846819ACC9FB00C6EEB8 /* Logger.bundle */; };
+		66DC852A19ACC9FB00C6EEB8 /* MAFFormatters-Bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 66DC846919ACC9FB00C6EEB8 /* MAFFormatters-Bundle.zip */; };
+		66DC852B19ACC9FB00C6EEB8 /* MAFLogonManagerNG-Bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 66DC846A19ACC9FB00C6EEB8 /* MAFLogonManagerNG-Bundle.zip */; };
+		66DC852C19ACC9FB00C6EEB8 /* MAFLogonUING-Bundle.zip in Resources */ = {isa = PBXBuildFile; fileRef = 66DC846B19ACC9FB00C6EEB8 /* MAFLogonUING-Bundle.zip */; };
+		66DC853A19ACCAB200C6EEB8 /* libCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC852D19ACCAB200C6EEB8 /* libCache.a */; };
+		66DC853B19ACCAB200C6EEB8 /* libClientHubSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC852E19ACCAB200C6EEB8 /* libClientHubSLL.a */; };
+		66DC853C19ACCAB200C6EEB8 /* libConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC852F19ACCAB200C6EEB8 /* libConnectivity.a */; };
+		66DC853D19ACCAB200C6EEB8 /* libCoreServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853019ACCAB200C6EEB8 /* libCoreServices.a */; };
+		66DC853E19ACCAB200C6EEB8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853119ACCAB200C6EEB8 /* libcrypto.a */; };
+		66DC853F19ACCAB200C6EEB8 /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853219ACCAB200C6EEB8 /* libDatavault.a */; };
+		66DC854019ACCAB200C6EEB8 /* libE2ETrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853319ACCAB200C6EEB8 /* libE2ETrace.a */; };
+		66DC854119ACCAB200C6EEB8 /* libLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853419ACCAB200C6EEB8 /* libLogger.a */; };
+		66DC854219ACCAB200C6EEB8 /* libParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853519ACCAB200C6EEB8 /* libParser.a */; };
+		66DC854319ACCAB200C6EEB8 /* libPerformanceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853619ACCAB200C6EEB8 /* libPerformanceLib.a */; };
+		66DC854419ACCAB200C6EEB8 /* libRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853719ACCAB200C6EEB8 /* libRequest.a */; };
+		66DC854519ACCAB200C6EEB8 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853819ACCAB200C6EEB8 /* libsqlcipher.a */; };
+		66DC854619ACCAB200C6EEB8 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC853919ACCAB200C6EEB8 /* libssl.a */; };
+		66DC855119ACCB9800C6EEB8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854719ACCB9800C6EEB8 /* CFNetwork.framework */; };
+		66DC855219ACCB9800C6EEB8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854819ACCB9800C6EEB8 /* CoreData.framework */; };
+		66DC855319ACCB9800C6EEB8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854919ACCB9800C6EEB8 /* CoreFoundation.framework */; };
+		66DC855419ACCB9800C6EEB8 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854A19ACCB9800C6EEB8 /* libicucore.A.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		66DC855519ACCB9800C6EEB8 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854B19ACCB9800C6EEB8 /* libstdc++.dylib */; };
+		66DC855619ACCB9800C6EEB8 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854C19ACCB9800C6EEB8 /* libz.1.2.5.dylib */; };
+		66DC855719ACCB9800C6EEB8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854D19ACCB9800C6EEB8 /* MessageUI.framework */; };
+		66DC855819ACCB9800C6EEB8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854E19ACCB9800C6EEB8 /* MobileCoreServices.framework */; };
+		66DC855919ACCB9800C6EEB8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC854F19ACCB9800C6EEB8 /* Security.framework */; };
+		66DC855A19ACCB9800C6EEB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DC855019ACCB9800C6EEB8 /* SystemConfiguration.framework */; };
+		66DC855D19ACCD9000C6EEB8 /* SMPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC855C19ACCD9000C6EEB8 /* SMPController.m */; };
+		66DC856319ACD2BC00C6EEB8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DC856219ACD2BC00C6EEB8 /* MainViewController.m */; };
+		66F1FB1719ADE9BD0056CB88 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F1FB1619ADE9BD0056CB88 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +71,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66389B8919B0610A00E981EB /* libMAFFormatters.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFFormatters.a; path = "SMP3-101/includes/Release/libMAFFormatters.a"; sourceTree = "<group>"; };
+		66389B8A19B0610A00E981EB /* libMAFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogger.a; path = "SMP3-101/includes/Release/libMAFLogger.a"; sourceTree = "<group>"; };
+		66389B8B19B0610A00E981EB /* libMAFLogonManagerNG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonManagerNG.a; path = "SMP3-101/includes/Release/libMAFLogonManagerNG.a"; sourceTree = "<group>"; };
+		66389B8C19B0610A00E981EB /* libMAFLogonUING.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonUING.a; path = "SMP3-101/includes/Release/libMAFLogonUING.a"; sourceTree = "<group>"; };
+		66389B8D19B0610A00E981EB /* libMAFUIHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFUIHelper.a; path = "SMP3-101/includes/Release/libMAFUIHelper.a"; sourceTree = "<group>"; };
+		66389B8E19B0610A00E981EB /* libMAFZipHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFZipHelper.a; path = "SMP3-101/includes/Release/libMAFZipHelper.a"; sourceTree = "<group>"; };
+		66389B9619B06A3B00E981EB /* libMAFFormatters.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFFormatters.a; sourceTree = "<group>"; };
+		66389B9719B06A3B00E981EB /* libMAFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFLogger.a; sourceTree = "<group>"; };
+		66389B9819B06A3B00E981EB /* libMAFLogonManagerNG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFLogonManagerNG.a; sourceTree = "<group>"; };
+		66389B9919B06A3B00E981EB /* libMAFLogonUING.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFLogonUING.a; sourceTree = "<group>"; };
+		66389B9A19B06A3B00E981EB /* libMAFUIHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFUIHelper.a; sourceTree = "<group>"; };
+		66389B9B19B06A3B00E981EB /* libMAFZipHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMAFZipHelper.a; sourceTree = "<group>"; };
+		66389B9C19B06AE800E981EB /* libMAFUIComponents.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFUIComponents.a; path = "SMP3-101/includes/Release/libMAFUIComponents.a"; sourceTree = "<group>"; };
+		66389B9E19B0935500E981EB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		66B1AC0F19ACED0000C5A172 /* SMPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPDelegate.h; sourceTree = "<group>"; };
 		66DC843219ACC79E00C6EEB8 /* SMP3-101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMP3-101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DC843519ACC79E00C6EEB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66DC843719ACC79E00C6EEB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +102,209 @@
 		66DC845619ACC79E00C6EEB8 /* SMP3-101Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMP3-101Tests-Info.plist"; sourceTree = "<group>"; };
 		66DC845819ACC79E00C6EEB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66DC845A19ACC79F00C6EEB8 /* SMP3_101Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMP3_101Tests.m; sourceTree = "<group>"; };
+		66DC846719ACC9FB00C6EEB8 /* Cache.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Cache.bundle; sourceTree = "<group>"; };
+		66DC846819ACC9FB00C6EEB8 /* Logger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Logger.bundle; sourceTree = "<group>"; };
+		66DC846919ACC9FB00C6EEB8 /* MAFFormatters-Bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "MAFFormatters-Bundle.zip"; sourceTree = "<group>"; };
+		66DC846A19ACC9FB00C6EEB8 /* MAFLogonManagerNG-Bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "MAFLogonManagerNG-Bundle.zip"; sourceTree = "<group>"; };
+		66DC846B19ACC9FB00C6EEB8 /* MAFLogonUING-Bundle.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "MAFLogonUING-Bundle.zip"; sourceTree = "<group>"; };
+		66DC846E19ACC9FB00C6EEB8 /* SeedDataAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeedDataAPI.h; sourceTree = "<group>"; };
+		66DC846F19ACC9FB00C6EEB8 /* SeedingAPISynchronous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeedingAPISynchronous.h; sourceTree = "<group>"; };
+		66DC847119ACC9FB00C6EEB8 /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		66DC847219ACC9FB00C6EEB8 /* Caching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caching.h; sourceTree = "<group>"; };
+		66DC847319ACC9FB00C6EEB8 /* EncryptionKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionKeyManager.h; sourceTree = "<group>"; };
+		66DC847519ACC9FB00C6EEB8 /* ClientHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientHub.h; sourceTree = "<group>"; };
+		66DC847619ACC9FB00C6EEB8 /* ConnectionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionSettings.h; sourceTree = "<group>"; };
+		66DC847719ACC9FB00C6EEB8 /* UserCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCredentials.h; sourceTree = "<group>"; };
+		66DC847919ACC9FB00C6EEB8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		66DC847A19ACC9FB00C6EEB8 /* RouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteManager.h; sourceTree = "<group>"; };
+		66DC847B19ACC9FB00C6EEB8 /* SDMCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCacheDelegate.h; sourceTree = "<group>"; };
+		66DC847C19ACC9FB00C6EEB8 /* SDMConnectivityException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMConnectivityException.h; sourceTree = "<group>"; };
+		66DC847D19ACC9FB00C6EEB8 /* SDMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMConstants.h; sourceTree = "<group>"; };
+		66DC847E19ACC9FB00C6EEB8 /* SDMDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMDownloadCache.h; sourceTree = "<group>"; };
+		66DC847F19ACC9FB00C6EEB8 /* SDMFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMFormDataRequest.h; sourceTree = "<group>"; };
+		66DC848019ACC9FB00C6EEB8 /* SDMHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMHttpRequest.h; sourceTree = "<group>"; };
+		66DC848119ACC9FB00C6EEB8 /* SDMHttpRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMHttpRequestDelegate.h; sourceTree = "<group>"; };
+		66DC848219ACC9FB00C6EEB8 /* SDMNetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMNetworkQueue.h; sourceTree = "<group>"; };
+		66DC848319ACC9FB00C6EEB8 /* SDMProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMProgressDelegate.h; sourceTree = "<group>"; };
+		66DC848419ACC9FB00C6EEB8 /* SDMRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMRequestBuilder.h; sourceTree = "<group>"; };
+		66DC848519ACC9FB00C6EEB8 /* SDMRequesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMRequesting.h; sourceTree = "<group>"; };
+		66DC848719ACC9FB00C6EEB8 /* SMPAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPAppSettings.h; sourceTree = "<group>"; };
+		66DC848819ACC9FB00C6EEB8 /* SMPClientConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPClientConnection.h; sourceTree = "<group>"; };
+		66DC848919ACC9FB00C6EEB8 /* SMPUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPUserManager.h; sourceTree = "<group>"; };
+		66DC848B19ACC9FB00C6EEB8 /* DataVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVault.h; sourceTree = "<group>"; };
+		66DC848D19ACC9FB00C6EEB8 /* SAPExtendedPassport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPExtendedPassport.h; sourceTree = "<group>"; };
+		66DC848E19ACC9FB00C6EEB8 /* SUPE2ETraceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceController.h; sourceTree = "<group>"; };
+		66DC848F19ACC9FB00C6EEB8 /* SUPE2ETraceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceRequest.h; sourceTree = "<group>"; };
+		66DC849019ACC9FB00C6EEB8 /* SUPE2ETraceSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceSettings.h; sourceTree = "<group>"; };
+		66DC849119ACC9FB00C6EEB8 /* SUPE2ETraceStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceStep.h; sourceTree = "<group>"; };
+		66DC849219ACC9FB00C6EEB8 /* SUPE2ETraceTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPE2ETraceTransaction.h; sourceTree = "<group>"; };
+		66DC849419ACC9FB00C6EEB8 /* SDMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMLogger.h; sourceTree = "<group>"; };
+		66DC849519ACC9FB00C6EEB8 /* SDMLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMLogging.h; sourceTree = "<group>"; };
+		66DC849619ACC9FB00C6EEB8 /* SDMPerfTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPerfTimer.h; sourceTree = "<group>"; };
+		66DC849819ACC9FB00C6EEB8 /* MAFAddressFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFAddressFormatter.h; sourceTree = "<group>"; };
+		66DC849919ACC9FB00C6EEB8 /* MAFAddressFormatterContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFAddressFormatterContants.h; sourceTree = "<group>"; };
+		66DC849A19ACC9FB00C6EEB8 /* MAFAddressTableViewCellChanging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFAddressTableViewCellChanging.h; sourceTree = "<group>"; };
+		66DC849B19ACC9FB00C6EEB8 /* MAFCountryCodeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFCountryCodeStore.h; sourceTree = "<group>"; };
+		66DC849C19ACC9FB00C6EEB8 /* MAFCountrySelecting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFCountrySelecting.h; sourceTree = "<group>"; };
+		66DC849D19ACC9FB00C6EEB8 /* MAFCurrencyCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFCurrencyCatalog.h; sourceTree = "<group>"; };
+		66DC849E19ACC9FB00C6EEB8 /* MAFCurrencyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFCurrencyFormatter.h; sourceTree = "<group>"; };
+		66DC849F19ACC9FB00C6EEB8 /* MAFDateTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFDateTimeFormatter.h; sourceTree = "<group>"; };
+		66DC84A019ACC9FB00C6EEB8 /* MAFDateTimeFormatterParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFDateTimeFormatterParams.h; sourceTree = "<group>"; };
+		66DC84A119ACC9FB00C6EEB8 /* MAFFormatterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormatterFactory.h; sourceTree = "<group>"; };
+		66DC84A219ACC9FB00C6EEB8 /* MAFFormatterLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormatterLocalizer.h; sourceTree = "<group>"; };
+		66DC84A319ACC9FB00C6EEB8 /* MAFFormattersException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormattersException.h; sourceTree = "<group>"; };
+		66DC84A419ACC9FB00C6EEB8 /* MAFFormatterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormatterTypes.h; sourceTree = "<group>"; };
+		66DC84A519ACC9FB00C6EEB8 /* MAFFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormatting.h; sourceTree = "<group>"; };
+		66DC84A619ACC9FB00C6EEB8 /* MAFFormattingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFFormattingFactory.h; sourceTree = "<group>"; };
+		66DC84A719ACC9FB00C6EEB8 /* MAFXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFXMLNode.h; sourceTree = "<group>"; };
+		66DC84A819ACC9FB00C6EEB8 /* NSObject+MAFDictionarySetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MAFDictionarySetter.h"; sourceTree = "<group>"; };
+		66DC84AA19ACC9FB00C6EEB8 /* MAFLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogEntry.h; sourceTree = "<group>"; };
+		66DC84AB19ACC9FB00C6EEB8 /* MAFLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogger.h; sourceTree = "<group>"; };
+		66DC84AC19ACC9FB00C6EEB8 /* MAFLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogging.h; sourceTree = "<group>"; };
+		66DC84AE19ACC9FB00C6EEB8 /* MAFAfariaConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFAfariaConstants.h; sourceTree = "<group>"; };
+		66DC84AF19ACC9FB00C6EEB8 /* MAFLogonCommunicatorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonCommunicatorConstants.h; sourceTree = "<group>"; };
+		66DC84B019ACC9FB00C6EEB8 /* MAFLogonContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonContext.h; sourceTree = "<group>"; };
+		66DC84B119ACC9FB00C6EEB8 /* MAFLogonCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonCore.h; sourceTree = "<group>"; };
+		66DC84B219ACC9FB00C6EEB8 /* MAFLogonCoreDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonCoreDelegate.h; sourceTree = "<group>"; };
+		66DC84B319ACC9FB00C6EEB8 /* MAFLogonCoreErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonCoreErrors.h; sourceTree = "<group>"; };
+		66DC84B419ACC9FB00C6EEB8 /* MAFLogonCoreState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonCoreState.h; sourceTree = "<group>"; };
+		66DC84B519ACC9FB00C6EEB8 /* MAFLogonFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonFileManager.h; sourceTree = "<group>"; };
+		66DC84B619ACC9FB00C6EEB8 /* MAFLogonManagerNGPublicHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonManagerNGPublicHeaders.h; sourceTree = "<group>"; };
+		66DC84B719ACC9FB00C6EEB8 /* MAFLogonRegistrationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonRegistrationContext.h; sourceTree = "<group>"; };
+		66DC84B819ACC9FB00C6EEB8 /* MAFLogonSMPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonSMPConstants.h; sourceTree = "<group>"; };
+		66DC84B919ACC9FB00C6EEB8 /* MAFSecureStoreManagerErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFSecureStoreManagerErrors.h; sourceTree = "<group>"; };
+		66DC84BA19ACC9FB00C6EEB8 /* MAFSecureStorePasswordPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFSecureStorePasswordPolicy.h; sourceTree = "<group>"; };
+		66DC84BC19ACC9FB00C6EEB8 /* MAFLogonDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonDictionaryHelper.h; sourceTree = "<group>"; };
+		66DC84BD19ACC9FB00C6EEB8 /* MAFLogonManagerNGState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonManagerNGState.h; sourceTree = "<group>"; };
+		66DC84BE19ACC9FB00C6EEB8 /* MAFLogonNGDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonNGDelegate.h; sourceTree = "<group>"; };
+		66DC84BF19ACC9FB00C6EEB8 /* MAFLogonNGPublicAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonNGPublicAPI.h; sourceTree = "<group>"; };
+		66DC84C019ACC9FB00C6EEB8 /* MAFLogonOperationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonOperationContext.h; sourceTree = "<group>"; };
+		66DC84C119ACC9FB00C6EEB8 /* MAFLogonOperationContextConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonOperationContextConstants.h; sourceTree = "<group>"; };
+		66DC84C219ACC9FB00C6EEB8 /* MAFLogonRegistrationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonRegistrationData.h; sourceTree = "<group>"; };
+		66DC84C319ACC9FB00C6EEB8 /* MAFLogonRegistrationOperationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonRegistrationOperationContext.h; sourceTree = "<group>"; };
+		66DC84C419ACC9FB00C6EEB8 /* MAFLogonRegistrationOperationContextConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonRegistrationOperationContextConstants.h; sourceTree = "<group>"; };
+		66DC84C519ACC9FB00C6EEB8 /* MAFLogonSecureStoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonSecureStoreConstants.h; sourceTree = "<group>"; };
+		66DC84C619ACC9FB00C6EEB8 /* MAFLogonUIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIContext.h; sourceTree = "<group>"; };
+		66DC84C719ACC9FB00C6EEB8 /* MAFLogonUIContextConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIContextConstants.h; sourceTree = "<group>"; };
+		66DC84C819ACC9FB00C6EEB8 /* MAFLogonUICustomizationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUICustomizationContext.h; sourceTree = "<group>"; };
+		66DC84C919ACC9FB00C6EEB8 /* MAFLogonUICustomizationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUICustomizationDelegate.h; sourceTree = "<group>"; };
+		66DC84CA19ACC9FB00C6EEB8 /* MAFLogonUINGPublicHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUINGPublicHeaders.h; sourceTree = "<group>"; };
+		66DC84CB19ACC9FB00C6EEB8 /* MAFLogonUITableViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUITableViewConstants.h; sourceTree = "<group>"; };
+		66DC84CC19ACC9FB00C6EEB8 /* MAFLogonUIUserDefaultsConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIUserDefaultsConstants.h; sourceTree = "<group>"; };
+		66DC84CD19ACC9FB00C6EEB8 /* MAFLogonUIViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIViewManager.h; sourceTree = "<group>"; };
+		66DC84CE19ACC9FB00C6EEB8 /* MAFLogonUIViewManaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIViewManaging.h; sourceTree = "<group>"; };
+		66DC84CF19ACC9FB00C6EEB8 /* MAFLogonUIViewManagingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonUIViewManagingDelegate.h; sourceTree = "<group>"; };
+		66DC84D019ACC9FB00C6EEB8 /* MAFLogonViewScreenType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFLogonViewScreenType.h; sourceTree = "<group>"; };
+		66DC84D219ACC9FB00C6EEB8 /* UIAlertView+MAFUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MAFUIHelper.h"; sourceTree = "<group>"; };
+		66DC84D419ACC9FB00C6EEB8 /* MAFEmbeddedFileDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFEmbeddedFileDescriptor.h; sourceTree = "<group>"; };
+		66DC84D519ACC9FB00C6EEB8 /* MAFZipFileDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFZipFileDescriptor.h; sourceTree = "<group>"; };
+		66DC84D719ACC9FB00C6EEB8 /* NSStringConversionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringConversionExtension.h; sourceTree = "<group>"; };
+		66DC84D819ACC9FB00C6EEB8 /* NSStringExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExtension.h; sourceTree = "<group>"; };
+		66DC84D919ACC9FB00C6EEB8 /* OData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OData.h; sourceTree = "<group>"; };
+		66DC84DA19ACC9FB00C6EEB8 /* ODataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataCollection.h; sourceTree = "<group>"; };
+		66DC84DB19ACC9FB00C6EEB8 /* ODataDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataDataParser.h; sourceTree = "<group>"; };
+		66DC84DC19ACC9FB00C6EEB8 /* ODataEntitySchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataEntitySchema.h; sourceTree = "<group>"; };
+		66DC84DD19ACC9FB00C6EEB8 /* ODataEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataEntry.h; sourceTree = "<group>"; };
+		66DC84DE19ACC9FB00C6EEB8 /* ODataError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataError.h; sourceTree = "<group>"; };
+		66DC84DF19ACC9FB00C6EEB8 /* ODataErrorXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataErrorXMLParser.h; sourceTree = "<group>"; };
+		66DC84E019ACC9FB00C6EEB8 /* ODataFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataFeed.h; sourceTree = "<group>"; };
+		66DC84E119ACC9FB00C6EEB8 /* ODataFunctionImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataFunctionImport.h; sourceTree = "<group>"; };
+		66DC84E219ACC9FB00C6EEB8 /* ODataFunctionImportResultParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataFunctionImportResultParser.h; sourceTree = "<group>"; };
+		66DC84E319ACC9FB00C6EEB8 /* ODataGenericParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataGenericParser.h; sourceTree = "<group>"; };
+		66DC84E419ACC9FB00C6EEB8 /* ODataIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataIconInfo.h; sourceTree = "<group>"; };
+		66DC84E519ACC9FB00C6EEB8 /* ODataLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataLink.h; sourceTree = "<group>"; };
+		66DC84E619ACC9FB00C6EEB8 /* ODataMetaDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataMetaDocumentParser.h; sourceTree = "<group>"; };
+		66DC84E719ACC9FB00C6EEB8 /* ODataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataParser.h; sourceTree = "<group>"; };
+		66DC84E819ACC9FB00C6EEB8 /* ODataParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataParserDelegate.h; sourceTree = "<group>"; };
+		66DC84E919ACC9FB00C6EEB8 /* ODataParserException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataParserException.h; sourceTree = "<group>"; };
+		66DC84EA19ACC9FB00C6EEB8 /* ODataProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataProperty.h; sourceTree = "<group>"; };
+		66DC84EB19ACC9FB00C6EEB8 /* ODataPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataPropertyInfo.h; sourceTree = "<group>"; };
+		66DC84EC19ACC9FB00C6EEB8 /* ODataPropertyValueFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataPropertyValueFactory.h; sourceTree = "<group>"; };
+		66DC84ED19ACC9FB00C6EEB8 /* ODataPropertyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataPropertyValues.h; sourceTree = "<group>"; };
+		66DC84EE19ACC9FB00C6EEB8 /* ODataSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataSchema.h; sourceTree = "<group>"; };
+		66DC84EF19ACC9FB00C6EEB8 /* ODataServiceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataServiceDocument.h; sourceTree = "<group>"; };
+		66DC84F019ACC9FB00C6EEB8 /* ODataServiceDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataServiceDocumentParser.h; sourceTree = "<group>"; };
+		66DC84F119ACC9FB00C6EEB8 /* ODataSubscriptionXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataSubscriptionXMLBuilder.h; sourceTree = "<group>"; };
+		66DC84F219ACC9FB00C6EEB8 /* ODataWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataWorkspace.h; sourceTree = "<group>"; };
+		66DC84F319ACC9FB00C6EEB8 /* ODataXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODataXMLBuilder.h; sourceTree = "<group>"; };
+		66DC84F419ACC9FB00C6EEB8 /* OpenSearchDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSearchDescription.h; sourceTree = "<group>"; };
+		66DC84F519ACC9FB00C6EEB8 /* OpenSearchDescriptionXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSearchDescriptionXMLParser.h; sourceTree = "<group>"; };
+		66DC84F619ACC9FB00C6EEB8 /* PerformanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceUtil.h; sourceTree = "<group>"; };
+		66DC84F719ACC9FB00C6EEB8 /* SDMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCache.h; sourceTree = "<group>"; };
+		66DC84F819ACC9FB00C6EEB8 /* SDMCacheException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCacheException.h; sourceTree = "<group>"; };
+		66DC84F919ACC9FB00C6EEB8 /* SDMCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMCaching.h; sourceTree = "<group>"; };
+		66DC84FA19ACC9FB00C6EEB8 /* SDMFunctionImportResultParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMFunctionImportResultParser.h; sourceTree = "<group>"; };
+		66DC84FB19ACC9FB00C6EEB8 /* SDMGenericParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMGenericParser.h; sourceTree = "<group>"; };
+		66DC84FC19ACC9FB00C6EEB8 /* SDMOData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOData.h; sourceTree = "<group>"; };
+		66DC84FD19ACC9FB00C6EEB8 /* SDMODataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataCollection.h; sourceTree = "<group>"; };
+		66DC84FE19ACC9FB00C6EEB8 /* SDMODataDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataDataParser.h; sourceTree = "<group>"; };
+		66DC84FF19ACC9FB00C6EEB8 /* SDMODataEntitySchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataEntitySchema.h; sourceTree = "<group>"; };
+		66DC850019ACC9FB00C6EEB8 /* SDMODataEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataEntry.h; sourceTree = "<group>"; };
+		66DC850119ACC9FB00C6EEB8 /* SDMODataError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataError.h; sourceTree = "<group>"; };
+		66DC850219ACC9FB00C6EEB8 /* SDMODataErrorXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataErrorXMLParser.h; sourceTree = "<group>"; };
+		66DC850319ACC9FB00C6EEB8 /* SDMODataFunctionImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataFunctionImport.h; sourceTree = "<group>"; };
+		66DC850419ACC9FB00C6EEB8 /* SDMODataIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataIconInfo.h; sourceTree = "<group>"; };
+		66DC850519ACC9FB00C6EEB8 /* SDMODataLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataLink.h; sourceTree = "<group>"; };
+		66DC850619ACC9FB00C6EEB8 /* SDMODataMetaDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataMetaDocumentParser.h; sourceTree = "<group>"; };
+		66DC850719ACC9FB00C6EEB8 /* SDMODataProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataProperty.h; sourceTree = "<group>"; };
+		66DC850819ACC9FB00C6EEB8 /* SDMODataPropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyInfo.h; sourceTree = "<group>"; };
+		66DC850919ACC9FB00C6EEB8 /* SDMODataPropertyValueFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyValueFactory.h; sourceTree = "<group>"; };
+		66DC850A19ACC9FB00C6EEB8 /* SDMODataPropertyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataPropertyValues.h; sourceTree = "<group>"; };
+		66DC850B19ACC9FB00C6EEB8 /* SDMODataSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataSchema.h; sourceTree = "<group>"; };
+		66DC850C19ACC9FB00C6EEB8 /* SDMODataServiceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataServiceDocument.h; sourceTree = "<group>"; };
+		66DC850D19ACC9FB00C6EEB8 /* SDMODataServiceDocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataServiceDocumentParser.h; sourceTree = "<group>"; };
+		66DC850E19ACC9FB00C6EEB8 /* SDMODataWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataWorkspace.h; sourceTree = "<group>"; };
+		66DC850F19ACC9FB00C6EEB8 /* SDMODataXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMODataXMLBuilder.h; sourceTree = "<group>"; };
+		66DC851019ACC9FB00C6EEB8 /* SDMOpenSearchDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOpenSearchDescription.h; sourceTree = "<group>"; };
+		66DC851119ACC9FB00C6EEB8 /* SDMOpenSearchDescriptionXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMOpenSearchDescriptionXMLParser.h; sourceTree = "<group>"; };
+		66DC851219ACC9FB00C6EEB8 /* SDMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParser.h; sourceTree = "<group>"; };
+		66DC851319ACC9FB00C6EEB8 /* SDMParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParserDelegate.h; sourceTree = "<group>"; };
+		66DC851419ACC9FB00C6EEB8 /* SDMParserException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMParserException.h; sourceTree = "<group>"; };
+		66DC851519ACC9FB00C6EEB8 /* SDMPerformanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPerformanceUtil.h; sourceTree = "<group>"; };
+		66DC851619ACC9FB00C6EEB8 /* SDMPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPersistence.h; sourceTree = "<group>"; };
+		66DC851719ACC9FB00C6EEB8 /* SDMPersisting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMPersisting.h; sourceTree = "<group>"; };
+		66DC851819ACC9FB00C6EEB8 /* SDMSubscriptionXMLBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMSubscriptionXMLBuilder.h; sourceTree = "<group>"; };
+		66DC851A19ACC9FB00C6EEB8 /* PerformanceAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceAgent.h; sourceTree = "<group>"; };
+		66DC851B19ACC9FB00C6EEB8 /* PerformanceCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceCounter.h; sourceTree = "<group>"; };
+		66DC851D19ACC9FB00C6EEB8 /* BatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequest.h; sourceTree = "<group>"; };
+		66DC851E19ACC9FB00C6EEB8 /* CacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheDelegate.h; sourceTree = "<group>"; };
+		66DC851F19ACC9FB00C6EEB8 /* ConnectivityException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityException.h; sourceTree = "<group>"; };
+		66DC852019ACC9FB00C6EEB8 /* DownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCache.h; sourceTree = "<group>"; };
+		66DC852119ACC9FB00C6EEB8 /* FormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormDataRequest.h; sourceTree = "<group>"; };
+		66DC852219ACC9FB00C6EEB8 /* NetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkQueue.h; sourceTree = "<group>"; };
+		66DC852319ACC9FB00C6EEB8 /* ProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressDelegate.h; sourceTree = "<group>"; };
+		66DC852419ACC9FB00C6EEB8 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		66DC852519ACC9FB00C6EEB8 /* RequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBuilder.h; sourceTree = "<group>"; };
+		66DC852619ACC9FB00C6EEB8 /* RequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestDelegate.h; sourceTree = "<group>"; };
+		66DC852719ACC9FB00C6EEB8 /* Requesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Requesting.h; sourceTree = "<group>"; };
+		66DC852D19ACCAB200C6EEB8 /* libCache.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCache.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libCache.a"; sourceTree = "<group>"; };
+		66DC852E19ACCAB200C6EEB8 /* libClientHubSLL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libClientHubSLL.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libClientHubSLL.a"; sourceTree = "<group>"; };
+		66DC852F19ACCAB200C6EEB8 /* libConnectivity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConnectivity.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libConnectivity.a"; sourceTree = "<group>"; };
+		66DC853019ACCAB200C6EEB8 /* libCoreServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCoreServices.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libCoreServices.a"; sourceTree = "<group>"; };
+		66DC853119ACCAB200C6EEB8 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libcrypto.a"; sourceTree = "<group>"; };
+		66DC853219ACCAB200C6EEB8 /* libDatavault.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDatavault.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libDatavault.a"; sourceTree = "<group>"; };
+		66DC853319ACCAB200C6EEB8 /* libE2ETrace.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libE2ETrace.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libE2ETrace.a"; sourceTree = "<group>"; };
+		66DC853419ACCAB200C6EEB8 /* libLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLogger.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libLogger.a"; sourceTree = "<group>"; };
+		66DC853519ACCAB200C6EEB8 /* libParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParser.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libParser.a"; sourceTree = "<group>"; };
+		66DC853619ACCAB200C6EEB8 /* libPerformanceLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPerformanceLib.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libPerformanceLib.a"; sourceTree = "<group>"; };
+		66DC853719ACCAB200C6EEB8 /* libRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRequest.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libRequest.a"; sourceTree = "<group>"; };
+		66DC853819ACCAB200C6EEB8 /* libsqlcipher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlcipher.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libsqlcipher.a"; sourceTree = "<group>"; };
+		66DC853919ACCAB200C6EEB8 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../SMP3-101.test/SMP_Libraries/iOS/libraries/Debug-universal/libssl.a"; sourceTree = "<group>"; };
+		66DC854719ACCB9800C6EEB8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		66DC854819ACCB9800C6EEB8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66DC854919ACCB9800C6EEB8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		66DC854A19ACCB9800C6EEB8 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		66DC854B19ACCB9800C6EEB8 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		66DC854C19ACCB9800C6EEB8 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		66DC854D19ACCB9800C6EEB8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		66DC854E19ACCB9800C6EEB8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		66DC854F19ACCB9800C6EEB8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66DC855019ACCB9800C6EEB8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66DC855B19ACCD9000C6EEB8 /* SMPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMPController.h; path = SMPController/SMPController.h; sourceTree = "<group>"; };
+		66DC855C19ACCD9000C6EEB8 /* SMPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMPController.m; path = SMPController/SMPController.m; sourceTree = "<group>"; };
+		66DC856119ACD2BC00C6EEB8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		66DC856219ACD2BC00C6EEB8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		66F1FB1619ADE9BD0056CB88 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +312,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66389B9F19B0935500E981EB /* libsqlite3.dylib in Frameworks */,
+				66389B9D19B06AE800E981EB /* libMAFUIComponents.a in Frameworks */,
+				66389B8F19B0610A00E981EB /* libMAFFormatters.a in Frameworks */,
+				66389B9019B0610A00E981EB /* libMAFLogger.a in Frameworks */,
+				66389B9119B0610A00E981EB /* libMAFLogonManagerNG.a in Frameworks */,
+				66389B9219B0610A00E981EB /* libMAFLogonUING.a in Frameworks */,
+				66389B9319B0610A00E981EB /* libMAFUIHelper.a in Frameworks */,
+				66389B9419B0610A00E981EB /* libMAFZipHelper.a in Frameworks */,
+				66DC855119ACCB9800C6EEB8 /* CFNetwork.framework in Frameworks */,
+				66DC855219ACCB9800C6EEB8 /* CoreData.framework in Frameworks */,
+				66DC855319ACCB9800C6EEB8 /* CoreFoundation.framework in Frameworks */,
+				66DC855419ACCB9800C6EEB8 /* libicucore.A.dylib in Frameworks */,
+				66DC855519ACCB9800C6EEB8 /* libstdc++.dylib in Frameworks */,
+				66DC855619ACCB9800C6EEB8 /* libz.1.2.5.dylib in Frameworks */,
+				66DC855719ACCB9800C6EEB8 /* MessageUI.framework in Frameworks */,
+				66DC855819ACCB9800C6EEB8 /* MobileCoreServices.framework in Frameworks */,
+				66DC855919ACCB9800C6EEB8 /* Security.framework in Frameworks */,
+				66DC855A19ACCB9800C6EEB8 /* SystemConfiguration.framework in Frameworks */,
+				66DC853A19ACCAB200C6EEB8 /* libCache.a in Frameworks */,
+				66DC853B19ACCAB200C6EEB8 /* libClientHubSLL.a in Frameworks */,
+				66DC853C19ACCAB200C6EEB8 /* libConnectivity.a in Frameworks */,
+				66DC853D19ACCAB200C6EEB8 /* libCoreServices.a in Frameworks */,
+				66DC853E19ACCAB200C6EEB8 /* libcrypto.a in Frameworks */,
+				66DC853F19ACCAB200C6EEB8 /* libDatavault.a in Frameworks */,
+				66DC854019ACCAB200C6EEB8 /* libE2ETrace.a in Frameworks */,
+				66DC854119ACCAB200C6EEB8 /* libLogger.a in Frameworks */,
+				66DC854219ACCAB200C6EEB8 /* libParser.a in Frameworks */,
+				66DC854319ACCAB200C6EEB8 /* libPerformanceLib.a in Frameworks */,
+				66DC854419ACCAB200C6EEB8 /* libRequest.a in Frameworks */,
+				66DC854519ACCAB200C6EEB8 /* libsqlcipher.a in Frameworks */,
+				66DC854619ACCAB200C6EEB8 /* libssl.a in Frameworks */,
 				66DC843819ACC79E00C6EEB8 /* CoreGraphics.framework in Frameworks */,
 				66DC843A19ACC79E00C6EEB8 /* UIKit.framework in Frameworks */,
 				66DC843619ACC79E00C6EEB8 /* Foundation.framework in Frameworks */,
@@ -74,11 +362,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66389B9519B06A3B00E981EB /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				66389B9619B06A3B00E981EB /* libMAFFormatters.a */,
+				66389B9719B06A3B00E981EB /* libMAFLogger.a */,
+				66389B9819B06A3B00E981EB /* libMAFLogonManagerNG.a */,
+				66389B9919B06A3B00E981EB /* libMAFLogonUING.a */,
+				66389B9A19B06A3B00E981EB /* libMAFUIHelper.a */,
+				66389B9B19B06A3B00E981EB /* libMAFZipHelper.a */,
+			);
+			name = Release;
+			path = "SMP3-101/includes/Release";
+			sourceTree = "<group>";
+		};
 		66DC842919ACC79E00C6EEB8 = {
 			isa = PBXGroup;
 			children = (
 				66DC843B19ACC79E00C6EEB8 /* SMP3-101 */,
-				66DC845419ACC79E00C6EEB8 /* SMP3-101Tests */,
 				66DC843419ACC79E00C6EEB8 /* Frameworks */,
 				66DC843319ACC79E00C6EEB8 /* Products */,
 			);
@@ -96,6 +397,38 @@
 		66DC843419ACC79E00C6EEB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66389B9E19B0935500E981EB /* libsqlite3.dylib */,
+				66389B9C19B06AE800E981EB /* libMAFUIComponents.a */,
+				66389B9519B06A3B00E981EB /* Release */,
+				66389B8919B0610A00E981EB /* libMAFFormatters.a */,
+				66389B8A19B0610A00E981EB /* libMAFLogger.a */,
+				66389B8B19B0610A00E981EB /* libMAFLogonManagerNG.a */,
+				66389B8C19B0610A00E981EB /* libMAFLogonUING.a */,
+				66389B8D19B0610A00E981EB /* libMAFUIHelper.a */,
+				66389B8E19B0610A00E981EB /* libMAFZipHelper.a */,
+				66DC854719ACCB9800C6EEB8 /* CFNetwork.framework */,
+				66DC854819ACCB9800C6EEB8 /* CoreData.framework */,
+				66DC854919ACCB9800C6EEB8 /* CoreFoundation.framework */,
+				66DC854A19ACCB9800C6EEB8 /* libicucore.A.dylib */,
+				66DC854B19ACCB9800C6EEB8 /* libstdc++.dylib */,
+				66DC854C19ACCB9800C6EEB8 /* libz.1.2.5.dylib */,
+				66DC854D19ACCB9800C6EEB8 /* MessageUI.framework */,
+				66DC854E19ACCB9800C6EEB8 /* MobileCoreServices.framework */,
+				66DC854F19ACCB9800C6EEB8 /* Security.framework */,
+				66DC855019ACCB9800C6EEB8 /* SystemConfiguration.framework */,
+				66DC852D19ACCAB200C6EEB8 /* libCache.a */,
+				66DC852E19ACCAB200C6EEB8 /* libClientHubSLL.a */,
+				66DC852F19ACCAB200C6EEB8 /* libConnectivity.a */,
+				66DC853019ACCAB200C6EEB8 /* libCoreServices.a */,
+				66DC853119ACCAB200C6EEB8 /* libcrypto.a */,
+				66DC853219ACCAB200C6EEB8 /* libDatavault.a */,
+				66DC853319ACCAB200C6EEB8 /* libE2ETrace.a */,
+				66DC853419ACCAB200C6EEB8 /* libLogger.a */,
+				66DC853519ACCAB200C6EEB8 /* libParser.a */,
+				66DC853619ACCAB200C6EEB8 /* libPerformanceLib.a */,
+				66DC853719ACCAB200C6EEB8 /* libRequest.a */,
+				66DC853819ACCAB200C6EEB8 /* libsqlcipher.a */,
+				66DC853919ACCAB200C6EEB8 /* libssl.a */,
 				66DC843519ACC79E00C6EEB8 /* Foundation.framework */,
 				66DC843719ACC79E00C6EEB8 /* CoreGraphics.framework */,
 				66DC843919ACC79E00C6EEB8 /* UIKit.framework */,
@@ -107,10 +440,18 @@
 		66DC843B19ACC79E00C6EEB8 /* SMP3-101 */ = {
 			isa = PBXGroup;
 			children = (
+				66DC843C19ACC79E00C6EEB8 /* Supporting Files */,
+				66DC846419ACC83F00C6EEB8 /* SMP3_Libraries */,
+				66DC856119ACD2BC00C6EEB8 /* MainViewController.h */,
+				66DC856219ACD2BC00C6EEB8 /* MainViewController.m */,
+				66F1FB1619ADE9BD0056CB88 /* MainViewController.xib */,
 				66DC844419ACC79E00C6EEB8 /* AppDelegate.h */,
 				66DC844519ACC79E00C6EEB8 /* AppDelegate.m */,
 				66DC844719ACC79E00C6EEB8 /* Images.xcassets */,
-				66DC843C19ACC79E00C6EEB8 /* Supporting Files */,
+				66DC855B19ACCD9000C6EEB8 /* SMPController.h */,
+				66B1AC0F19ACED0000C5A172 /* SMPDelegate.h */,
+				66DC855C19ACCD9000C6EEB8 /* SMPController.m */,
+				66DC845419ACC79E00C6EEB8 /* SMP3-101Tests */,
 			);
 			path = "SMP3-101";
 			sourceTree = "<group>";
@@ -133,7 +474,7 @@
 				66DC845519ACC79E00C6EEB8 /* Supporting Files */,
 			);
 			path = "SMP3-101Tests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		66DC845519ACC79E00C6EEB8 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -142,6 +483,348 @@
 				66DC845719ACC79E00C6EEB8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66DC846419ACC83F00C6EEB8 /* SMP3_Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				66DC846519ACC9FB00C6EEB8 /* includes */,
+			);
+			name = SMP3_Libraries;
+			sourceTree = "<group>";
+		};
+		66DC846519ACC9FB00C6EEB8 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				66DC846619ACC9FB00C6EEB8 /* bundles */,
+				66DC846C19ACC9FB00C6EEB8 /* public */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		66DC846619ACC9FB00C6EEB8 /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+				66DC846719ACC9FB00C6EEB8 /* Cache.bundle */,
+				66DC846819ACC9FB00C6EEB8 /* Logger.bundle */,
+				66DC846919ACC9FB00C6EEB8 /* MAFFormatters-Bundle.zip */,
+				66DC846A19ACC9FB00C6EEB8 /* MAFLogonManagerNG-Bundle.zip */,
+				66DC846B19ACC9FB00C6EEB8 /* MAFLogonUING-Bundle.zip */,
+			);
+			path = bundles;
+			sourceTree = "<group>";
+		};
+		66DC846C19ACC9FB00C6EEB8 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				66DC846D19ACC9FB00C6EEB8 /* AfariaSLL */,
+				66DC847019ACC9FB00C6EEB8 /* Cache */,
+				66DC847419ACC9FB00C6EEB8 /* ClientHubSLL */,
+				66DC847819ACC9FB00C6EEB8 /* Connectivity */,
+				66DC848619ACC9FB00C6EEB8 /* CoreServices */,
+				66DC848A19ACC9FB00C6EEB8 /* Datavault */,
+				66DC848C19ACC9FB00C6EEB8 /* E2ETrace */,
+				66DC849319ACC9FB00C6EEB8 /* Logger */,
+				66DC849719ACC9FB00C6EEB8 /* MAFFormatters */,
+				66DC84A919ACC9FB00C6EEB8 /* MAFLogger */,
+				66DC84AD19ACC9FB00C6EEB8 /* MAFLogonManagerNG */,
+				66DC84BB19ACC9FB00C6EEB8 /* MAFLogonUING */,
+				66DC84D119ACC9FB00C6EEB8 /* MAFUIHelper */,
+				66DC84D319ACC9FB00C6EEB8 /* MAFZipHelper */,
+				66DC84D619ACC9FB00C6EEB8 /* Parser */,
+				66DC851919ACC9FB00C6EEB8 /* PerformanceLib */,
+				66DC851C19ACC9FB00C6EEB8 /* Request */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		66DC846D19ACC9FB00C6EEB8 /* AfariaSLL */ = {
+			isa = PBXGroup;
+			children = (
+				66DC846E19ACC9FB00C6EEB8 /* SeedDataAPI.h */,
+				66DC846F19ACC9FB00C6EEB8 /* SeedingAPISynchronous.h */,
+			);
+			path = AfariaSLL;
+			sourceTree = "<group>";
+		};
+		66DC847019ACC9FB00C6EEB8 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				66DC847119ACC9FB00C6EEB8 /* Cache.h */,
+				66DC847219ACC9FB00C6EEB8 /* Caching.h */,
+				66DC847319ACC9FB00C6EEB8 /* EncryptionKeyManager.h */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		66DC847419ACC9FB00C6EEB8 /* ClientHubSLL */ = {
+			isa = PBXGroup;
+			children = (
+				66DC847519ACC9FB00C6EEB8 /* ClientHub.h */,
+				66DC847619ACC9FB00C6EEB8 /* ConnectionSettings.h */,
+				66DC847719ACC9FB00C6EEB8 /* UserCredentials.h */,
+			);
+			path = ClientHubSLL;
+			sourceTree = "<group>";
+		};
+		66DC847819ACC9FB00C6EEB8 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				66DC847919ACC9FB00C6EEB8 /* Reachability.h */,
+				66DC847A19ACC9FB00C6EEB8 /* RouteManager.h */,
+				66DC847B19ACC9FB00C6EEB8 /* SDMCacheDelegate.h */,
+				66DC847C19ACC9FB00C6EEB8 /* SDMConnectivityException.h */,
+				66DC847D19ACC9FB00C6EEB8 /* SDMConstants.h */,
+				66DC847E19ACC9FB00C6EEB8 /* SDMDownloadCache.h */,
+				66DC847F19ACC9FB00C6EEB8 /* SDMFormDataRequest.h */,
+				66DC848019ACC9FB00C6EEB8 /* SDMHttpRequest.h */,
+				66DC848119ACC9FB00C6EEB8 /* SDMHttpRequestDelegate.h */,
+				66DC848219ACC9FB00C6EEB8 /* SDMNetworkQueue.h */,
+				66DC848319ACC9FB00C6EEB8 /* SDMProgressDelegate.h */,
+				66DC848419ACC9FB00C6EEB8 /* SDMRequestBuilder.h */,
+				66DC848519ACC9FB00C6EEB8 /* SDMRequesting.h */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		66DC848619ACC9FB00C6EEB8 /* CoreServices */ = {
+			isa = PBXGroup;
+			children = (
+				66DC848719ACC9FB00C6EEB8 /* SMPAppSettings.h */,
+				66DC848819ACC9FB00C6EEB8 /* SMPClientConnection.h */,
+				66DC848919ACC9FB00C6EEB8 /* SMPUserManager.h */,
+			);
+			path = CoreServices;
+			sourceTree = "<group>";
+		};
+		66DC848A19ACC9FB00C6EEB8 /* Datavault */ = {
+			isa = PBXGroup;
+			children = (
+				66DC848B19ACC9FB00C6EEB8 /* DataVault.h */,
+			);
+			path = Datavault;
+			sourceTree = "<group>";
+		};
+		66DC848C19ACC9FB00C6EEB8 /* E2ETrace */ = {
+			isa = PBXGroup;
+			children = (
+				66DC848D19ACC9FB00C6EEB8 /* SAPExtendedPassport.h */,
+				66DC848E19ACC9FB00C6EEB8 /* SUPE2ETraceController.h */,
+				66DC848F19ACC9FB00C6EEB8 /* SUPE2ETraceRequest.h */,
+				66DC849019ACC9FB00C6EEB8 /* SUPE2ETraceSettings.h */,
+				66DC849119ACC9FB00C6EEB8 /* SUPE2ETraceStep.h */,
+				66DC849219ACC9FB00C6EEB8 /* SUPE2ETraceTransaction.h */,
+			);
+			path = E2ETrace;
+			sourceTree = "<group>";
+		};
+		66DC849319ACC9FB00C6EEB8 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				66DC849419ACC9FB00C6EEB8 /* SDMLogger.h */,
+				66DC849519ACC9FB00C6EEB8 /* SDMLogging.h */,
+				66DC849619ACC9FB00C6EEB8 /* SDMPerfTimer.h */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		66DC849719ACC9FB00C6EEB8 /* MAFFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				66DC849819ACC9FB00C6EEB8 /* MAFAddressFormatter.h */,
+				66DC849919ACC9FB00C6EEB8 /* MAFAddressFormatterContants.h */,
+				66DC849A19ACC9FB00C6EEB8 /* MAFAddressTableViewCellChanging.h */,
+				66DC849B19ACC9FB00C6EEB8 /* MAFCountryCodeStore.h */,
+				66DC849C19ACC9FB00C6EEB8 /* MAFCountrySelecting.h */,
+				66DC849D19ACC9FB00C6EEB8 /* MAFCurrencyCatalog.h */,
+				66DC849E19ACC9FB00C6EEB8 /* MAFCurrencyFormatter.h */,
+				66DC849F19ACC9FB00C6EEB8 /* MAFDateTimeFormatter.h */,
+				66DC84A019ACC9FB00C6EEB8 /* MAFDateTimeFormatterParams.h */,
+				66DC84A119ACC9FB00C6EEB8 /* MAFFormatterFactory.h */,
+				66DC84A219ACC9FB00C6EEB8 /* MAFFormatterLocalizer.h */,
+				66DC84A319ACC9FB00C6EEB8 /* MAFFormattersException.h */,
+				66DC84A419ACC9FB00C6EEB8 /* MAFFormatterTypes.h */,
+				66DC84A519ACC9FB00C6EEB8 /* MAFFormatting.h */,
+				66DC84A619ACC9FB00C6EEB8 /* MAFFormattingFactory.h */,
+				66DC84A719ACC9FB00C6EEB8 /* MAFXMLNode.h */,
+				66DC84A819ACC9FB00C6EEB8 /* NSObject+MAFDictionarySetter.h */,
+			);
+			path = MAFFormatters;
+			sourceTree = "<group>";
+		};
+		66DC84A919ACC9FB00C6EEB8 /* MAFLogger */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84AA19ACC9FB00C6EEB8 /* MAFLogEntry.h */,
+				66DC84AB19ACC9FB00C6EEB8 /* MAFLogger.h */,
+				66DC84AC19ACC9FB00C6EEB8 /* MAFLogging.h */,
+			);
+			path = MAFLogger;
+			sourceTree = "<group>";
+		};
+		66DC84AD19ACC9FB00C6EEB8 /* MAFLogonManagerNG */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84AE19ACC9FB00C6EEB8 /* MAFAfariaConstants.h */,
+				66DC84AF19ACC9FB00C6EEB8 /* MAFLogonCommunicatorConstants.h */,
+				66DC84B019ACC9FB00C6EEB8 /* MAFLogonContext.h */,
+				66DC84B119ACC9FB00C6EEB8 /* MAFLogonCore.h */,
+				66DC84B219ACC9FB00C6EEB8 /* MAFLogonCoreDelegate.h */,
+				66DC84B319ACC9FB00C6EEB8 /* MAFLogonCoreErrors.h */,
+				66DC84B419ACC9FB00C6EEB8 /* MAFLogonCoreState.h */,
+				66DC84B519ACC9FB00C6EEB8 /* MAFLogonFileManager.h */,
+				66DC84B619ACC9FB00C6EEB8 /* MAFLogonManagerNGPublicHeaders.h */,
+				66DC84B719ACC9FB00C6EEB8 /* MAFLogonRegistrationContext.h */,
+				66DC84B819ACC9FB00C6EEB8 /* MAFLogonSMPConstants.h */,
+				66DC84B919ACC9FB00C6EEB8 /* MAFSecureStoreManagerErrors.h */,
+				66DC84BA19ACC9FB00C6EEB8 /* MAFSecureStorePasswordPolicy.h */,
+			);
+			path = MAFLogonManagerNG;
+			sourceTree = "<group>";
+		};
+		66DC84BB19ACC9FB00C6EEB8 /* MAFLogonUING */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84BC19ACC9FB00C6EEB8 /* MAFLogonDictionaryHelper.h */,
+				66DC84BD19ACC9FB00C6EEB8 /* MAFLogonManagerNGState.h */,
+				66DC84BE19ACC9FB00C6EEB8 /* MAFLogonNGDelegate.h */,
+				66DC84BF19ACC9FB00C6EEB8 /* MAFLogonNGPublicAPI.h */,
+				66DC84C019ACC9FB00C6EEB8 /* MAFLogonOperationContext.h */,
+				66DC84C119ACC9FB00C6EEB8 /* MAFLogonOperationContextConstants.h */,
+				66DC84C219ACC9FB00C6EEB8 /* MAFLogonRegistrationData.h */,
+				66DC84C319ACC9FB00C6EEB8 /* MAFLogonRegistrationOperationContext.h */,
+				66DC84C419ACC9FB00C6EEB8 /* MAFLogonRegistrationOperationContextConstants.h */,
+				66DC84C519ACC9FB00C6EEB8 /* MAFLogonSecureStoreConstants.h */,
+				66DC84C619ACC9FB00C6EEB8 /* MAFLogonUIContext.h */,
+				66DC84C719ACC9FB00C6EEB8 /* MAFLogonUIContextConstants.h */,
+				66DC84C819ACC9FB00C6EEB8 /* MAFLogonUICustomizationContext.h */,
+				66DC84C919ACC9FB00C6EEB8 /* MAFLogonUICustomizationDelegate.h */,
+				66DC84CA19ACC9FB00C6EEB8 /* MAFLogonUINGPublicHeaders.h */,
+				66DC84CB19ACC9FB00C6EEB8 /* MAFLogonUITableViewConstants.h */,
+				66DC84CC19ACC9FB00C6EEB8 /* MAFLogonUIUserDefaultsConstants.h */,
+				66DC84CD19ACC9FB00C6EEB8 /* MAFLogonUIViewManager.h */,
+				66DC84CE19ACC9FB00C6EEB8 /* MAFLogonUIViewManaging.h */,
+				66DC84CF19ACC9FB00C6EEB8 /* MAFLogonUIViewManagingDelegate.h */,
+				66DC84D019ACC9FB00C6EEB8 /* MAFLogonViewScreenType.h */,
+			);
+			path = MAFLogonUING;
+			sourceTree = "<group>";
+		};
+		66DC84D119ACC9FB00C6EEB8 /* MAFUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84D219ACC9FB00C6EEB8 /* UIAlertView+MAFUIHelper.h */,
+			);
+			path = MAFUIHelper;
+			sourceTree = "<group>";
+		};
+		66DC84D319ACC9FB00C6EEB8 /* MAFZipHelper */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84D419ACC9FB00C6EEB8 /* MAFEmbeddedFileDescriptor.h */,
+				66DC84D519ACC9FB00C6EEB8 /* MAFZipFileDescriptor.h */,
+			);
+			path = MAFZipHelper;
+			sourceTree = "<group>";
+		};
+		66DC84D619ACC9FB00C6EEB8 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				66DC84D719ACC9FB00C6EEB8 /* NSStringConversionExtension.h */,
+				66DC84D819ACC9FB00C6EEB8 /* NSStringExtension.h */,
+				66DC84D919ACC9FB00C6EEB8 /* OData.h */,
+				66DC84DA19ACC9FB00C6EEB8 /* ODataCollection.h */,
+				66DC84DB19ACC9FB00C6EEB8 /* ODataDataParser.h */,
+				66DC84DC19ACC9FB00C6EEB8 /* ODataEntitySchema.h */,
+				66DC84DD19ACC9FB00C6EEB8 /* ODataEntry.h */,
+				66DC84DE19ACC9FB00C6EEB8 /* ODataError.h */,
+				66DC84DF19ACC9FB00C6EEB8 /* ODataErrorXMLParser.h */,
+				66DC84E019ACC9FB00C6EEB8 /* ODataFeed.h */,
+				66DC84E119ACC9FB00C6EEB8 /* ODataFunctionImport.h */,
+				66DC84E219ACC9FB00C6EEB8 /* ODataFunctionImportResultParser.h */,
+				66DC84E319ACC9FB00C6EEB8 /* ODataGenericParser.h */,
+				66DC84E419ACC9FB00C6EEB8 /* ODataIconInfo.h */,
+				66DC84E519ACC9FB00C6EEB8 /* ODataLink.h */,
+				66DC84E619ACC9FB00C6EEB8 /* ODataMetaDocumentParser.h */,
+				66DC84E719ACC9FB00C6EEB8 /* ODataParser.h */,
+				66DC84E819ACC9FB00C6EEB8 /* ODataParserDelegate.h */,
+				66DC84E919ACC9FB00C6EEB8 /* ODataParserException.h */,
+				66DC84EA19ACC9FB00C6EEB8 /* ODataProperty.h */,
+				66DC84EB19ACC9FB00C6EEB8 /* ODataPropertyInfo.h */,
+				66DC84EC19ACC9FB00C6EEB8 /* ODataPropertyValueFactory.h */,
+				66DC84ED19ACC9FB00C6EEB8 /* ODataPropertyValues.h */,
+				66DC84EE19ACC9FB00C6EEB8 /* ODataSchema.h */,
+				66DC84EF19ACC9FB00C6EEB8 /* ODataServiceDocument.h */,
+				66DC84F019ACC9FB00C6EEB8 /* ODataServiceDocumentParser.h */,
+				66DC84F119ACC9FB00C6EEB8 /* ODataSubscriptionXMLBuilder.h */,
+				66DC84F219ACC9FB00C6EEB8 /* ODataWorkspace.h */,
+				66DC84F319ACC9FB00C6EEB8 /* ODataXMLBuilder.h */,
+				66DC84F419ACC9FB00C6EEB8 /* OpenSearchDescription.h */,
+				66DC84F519ACC9FB00C6EEB8 /* OpenSearchDescriptionXMLParser.h */,
+				66DC84F619ACC9FB00C6EEB8 /* PerformanceUtil.h */,
+				66DC84F719ACC9FB00C6EEB8 /* SDMCache.h */,
+				66DC84F819ACC9FB00C6EEB8 /* SDMCacheException.h */,
+				66DC84F919ACC9FB00C6EEB8 /* SDMCaching.h */,
+				66DC84FA19ACC9FB00C6EEB8 /* SDMFunctionImportResultParser.h */,
+				66DC84FB19ACC9FB00C6EEB8 /* SDMGenericParser.h */,
+				66DC84FC19ACC9FB00C6EEB8 /* SDMOData.h */,
+				66DC84FD19ACC9FB00C6EEB8 /* SDMODataCollection.h */,
+				66DC84FE19ACC9FB00C6EEB8 /* SDMODataDataParser.h */,
+				66DC84FF19ACC9FB00C6EEB8 /* SDMODataEntitySchema.h */,
+				66DC850019ACC9FB00C6EEB8 /* SDMODataEntry.h */,
+				66DC850119ACC9FB00C6EEB8 /* SDMODataError.h */,
+				66DC850219ACC9FB00C6EEB8 /* SDMODataErrorXMLParser.h */,
+				66DC850319ACC9FB00C6EEB8 /* SDMODataFunctionImport.h */,
+				66DC850419ACC9FB00C6EEB8 /* SDMODataIconInfo.h */,
+				66DC850519ACC9FB00C6EEB8 /* SDMODataLink.h */,
+				66DC850619ACC9FB00C6EEB8 /* SDMODataMetaDocumentParser.h */,
+				66DC850719ACC9FB00C6EEB8 /* SDMODataProperty.h */,
+				66DC850819ACC9FB00C6EEB8 /* SDMODataPropertyInfo.h */,
+				66DC850919ACC9FB00C6EEB8 /* SDMODataPropertyValueFactory.h */,
+				66DC850A19ACC9FB00C6EEB8 /* SDMODataPropertyValues.h */,
+				66DC850B19ACC9FB00C6EEB8 /* SDMODataSchema.h */,
+				66DC850C19ACC9FB00C6EEB8 /* SDMODataServiceDocument.h */,
+				66DC850D19ACC9FB00C6EEB8 /* SDMODataServiceDocumentParser.h */,
+				66DC850E19ACC9FB00C6EEB8 /* SDMODataWorkspace.h */,
+				66DC850F19ACC9FB00C6EEB8 /* SDMODataXMLBuilder.h */,
+				66DC851019ACC9FB00C6EEB8 /* SDMOpenSearchDescription.h */,
+				66DC851119ACC9FB00C6EEB8 /* SDMOpenSearchDescriptionXMLParser.h */,
+				66DC851219ACC9FB00C6EEB8 /* SDMParser.h */,
+				66DC851319ACC9FB00C6EEB8 /* SDMParserDelegate.h */,
+				66DC851419ACC9FB00C6EEB8 /* SDMParserException.h */,
+				66DC851519ACC9FB00C6EEB8 /* SDMPerformanceUtil.h */,
+				66DC851619ACC9FB00C6EEB8 /* SDMPersistence.h */,
+				66DC851719ACC9FB00C6EEB8 /* SDMPersisting.h */,
+				66DC851819ACC9FB00C6EEB8 /* SDMSubscriptionXMLBuilder.h */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		66DC851919ACC9FB00C6EEB8 /* PerformanceLib */ = {
+			isa = PBXGroup;
+			children = (
+				66DC851A19ACC9FB00C6EEB8 /* PerformanceAgent.h */,
+				66DC851B19ACC9FB00C6EEB8 /* PerformanceCounter.h */,
+			);
+			path = PerformanceLib;
+			sourceTree = "<group>";
+		};
+		66DC851C19ACC9FB00C6EEB8 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				66DC851D19ACC9FB00C6EEB8 /* BatchRequest.h */,
+				66DC851E19ACC9FB00C6EEB8 /* CacheDelegate.h */,
+				66DC851F19ACC9FB00C6EEB8 /* ConnectivityException.h */,
+				66DC852019ACC9FB00C6EEB8 /* DownloadCache.h */,
+				66DC852119ACC9FB00C6EEB8 /* FormDataRequest.h */,
+				66DC852219ACC9FB00C6EEB8 /* NetworkQueue.h */,
+				66DC852319ACC9FB00C6EEB8 /* ProgressDelegate.h */,
+				66DC852419ACC9FB00C6EEB8 /* Request.h */,
+				66DC852519ACC9FB00C6EEB8 /* RequestBuilder.h */,
+				66DC852619ACC9FB00C6EEB8 /* RequestDelegate.h */,
+				66DC852719ACC9FB00C6EEB8 /* Requesting.h */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +902,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DC852C19ACC9FB00C6EEB8 /* MAFLogonUING-Bundle.zip in Resources */,
 				66DC844019ACC79E00C6EEB8 /* InfoPlist.strings in Resources */,
+				66DC852919ACC9FB00C6EEB8 /* Logger.bundle in Resources */,
+				66F1FB1719ADE9BD0056CB88 /* MainViewController.xib in Resources */,
+				66DC852A19ACC9FB00C6EEB8 /* MAFFormatters-Bundle.zip in Resources */,
+				66DC852B19ACC9FB00C6EEB8 /* MAFLogonManagerNG-Bundle.zip in Resources */,
 				66DC844819ACC79E00C6EEB8 /* Images.xcassets in Resources */,
+				66DC852819ACC9FB00C6EEB8 /* Cache.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +929,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				66DC844619ACC79E00C6EEB8 /* AppDelegate.m in Sources */,
+				66DC855D19ACCD9000C6EEB8 /* SMPController.m in Sources */,
 				66DC844219ACC79E00C6EEB8 /* main.m in Sources */,
+				66DC856319ACD2BC00C6EEB8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,12 +1048,30 @@
 		66DC845F19ACC79F00C6EEB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMP3-101/SMP3-101-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SRCROOT/SMP3-101/includes/public/**",
+				);
 				INFOPLIST_FILE = "SMP3-101/SMP3-101-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR).test/SMP_Libraries/iOS/libraries/Debug-universal",
+					"$(PROJECT_DIR)/SMP3-101/includes/Release",
+				);
+				OTHER_LDFLAGS = "\"-ObjC -all_load\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,12 +1079,30 @@
 		66DC846019ACC79F00C6EEB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMP3-101/SMP3-101-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SRCROOT/SMP3-101/includes/public/**",
+				);
 				INFOPLIST_FILE = "SMP3-101/SMP3-101-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR).test/SMP_Libraries/iOS/libraries/Debug-universal",
+					"$(PROJECT_DIR)/SMP3-101/includes/Release",
+				);
+				OTHER_LDFLAGS = "\"-ObjC -all_load\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +1166,7 @@
 				66DC846019ACC79F00C6EEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66DC846119ACC79F00C6EEB8 /* Build configuration list for PBXNativeTarget "SMP3-101Tests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +1175,7 @@
 				66DC846319ACC79F00C6EEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

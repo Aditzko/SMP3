@@ -1,0 +1,31 @@
+/*
+  Localized Strings file
+  SDMSupportability.bundle
+
+  Created by Nyisztor Karoly on 8/14/11.
+  Copyright 2011 SAP AG. All rights reserved.
+*/
+
+/* Accessibility hint read by the VoiceOver Utility when hovering over the LogViewer UI title */
+"Hint_LogViewerTitle" = "Heading";
+
+/* Localized title for the LogViewer UI */
+"Title_LogViewer" = "Logs";
+
+/* Accessibility hint for the Send eMail button */
+"Hint_SendMail" = "Send E-Mail";
+
+/* UIAlertView title */
+"Title_Email" = "E-Mail";
+
+/* UIAlertView error message when an error occurs upon sending the eMail */
+"Msg_SendingFailed" = "Sending Failed!";
+
+/* UIAlterView Ok button message */
+"Btn_OK" = "OK";
+
+/* Accessibility hint for the log entry selection checkmark - unchecked state */
+"Hint_CheckboxUnselected" = "Unselected";
+
+/* Accessibility hint for the log entry selection checkmark - selected state */
+"Hint_CheckboxSelected" = "Selected";
